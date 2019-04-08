@@ -1,31 +1,97 @@
-<!DOCTYPEhtml>
-<html>
-    <head>
-        <title>Mrs Giffords Website</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-        <style>
-            body {background-color: darkviolet}
-            h1 {color: dodgerblue}
-            h1 {align-items: center}
-            h2 {color: dodgerblue}
-            p {color: dodgerblue}
-            h3 {align-items: center}
-            a {color: dodgerblue}
-        </style>
-    </head>
-    <body>
-    <h1 align="center">Mrs Gifford's Coding/Typing Class</h1>
-        <p></p>
-         <h2>An Example Class</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mrs Giffords Website</title>
+   <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+]
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Mrs Gifford's Coding/Typing Class</h2>
+</header>
+
+<section>
+  
+  <article>
+    <h2>An Example Class</h2>
         <img src="Class.png" alt="A Class Example" height="300" width="400">
-        <p></p>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  </article>
+</section>
+  
+<section>
+  <article>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ
 "> <img src="DNC.png"></a>
-        <a href="About%20Mrs%20Gifford.html">About Mrs Gifford</a>
-        <a href="mailto: Janna.gifford@washk12.org">Contact Mrs Gifford</a>
-           
-             <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by 
+  </article>
+  </section>
+<footer>
+    <nav>
+    <ul>
+      <li><a href="#">Contact Mrs Gifford</a></li>
+      <li><a href="#">About Mrs Gifford</a></li>
+    </ul>
+  </nav>
+</footer>
+<p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by 
          Mrs Gifford
             </p>
-    </body>
+</body>
 </html>
