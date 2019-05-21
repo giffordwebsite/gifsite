@@ -38,7 +38,5 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  document.body.style.backgroundImage = "url('CheatBackground.png')";
-
   alert("Mrs. Gifford Is Amazing");
 }
